@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Movuino Test",
+  "title": "bodyTemperature",
   "description": "Send analog input values from temperature sensor",
   "type": "object",
   "properties": {
@@ -14,7 +14,7 @@
     },
     "temperature": {
       "type": "number",
-      "description": "The temperature obtained by Movuino"
+      "description": "The temperature obtained by Wearable"
     },
     "deviceName": {
       "type": "string",
