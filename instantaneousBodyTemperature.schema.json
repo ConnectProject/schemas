@@ -16,6 +16,10 @@
       "type": "number",
       "description": "The temperature obtained by Wearable"
     },
+    "placeMeasured":{
+      "type": "string",
+      "description": "Part of the body from where the data is acquired"
+    },
     "deviceName": {
       "type": "string",
       "description": "The name of the device"
@@ -27,6 +31,7 @@
     },
     "required": [ 
          "temperature",
+         "placeMeasured",
          "deviceName"
     ],
     "additinalProperties":false
