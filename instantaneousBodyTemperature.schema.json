@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "bodyTemperature",
+  "description": "Send analog input values from temperature sensor",
+  "type": "object",
+  "properties": {
+    "applicationId": {
+       "type": "string",
+       "description": "Unique Connect identifier of the app originating the event. Read-only (added by Connect)"
+    },
+    "userId": {
+       "type": "string",
+      "description": "Unique Connect identifier of the user originating the event. Read-only (added by Connect)"
+    },
+    "temperature": {
+      "type": "number",
+      "description": "The temperature obtained by Wearable"
+    },
+    "placeMeasured":{
+      "type": "string",
+      "description": "Part of the body from where the data is acquired"
+    },
+    "deviceName": {
+      "type": "string",
+      "description": "The name of the device"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp for the production of the phrase"
+    },
+    "required": [ 
+         "temperature",
+         "placeMeasured",
+         "deviceName"
+    ],
+    "additinalProperties":false
+}
+}
