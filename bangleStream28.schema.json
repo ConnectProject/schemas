@@ -92,63 +92,63 @@
                     },
                     "ax_S": {
                         "type": "number",
-                        "description": "S.D of accelerometer X"
+                        "description": "Variance of accelerometer X"
                     },
 
                     "ay_S": {
                         "type": "number",
-                        "description": "S.D of accelerometer Y"
+                        "description": "Variance of accelerometer Y"
                     },
 
                     "az_S": {
                         "type": "number",
-                        "description": "S.D of accelerometer Z"
+                        "description": "Variance of accelerometer Z"
                     },
                     "cx_S": {
                         "type": "number",
-                        "description": "S.D of gyroscope X"
+                        "description": "Variance of gyroscope X"
                     },
 
                     "cy_S": {
                         "type": "number",
-                        "description": "S.D of gyroscope Y"
+                        "description": "Variance of gyroscope Y"
                     },
 
                     "cz_S": {
                         "type": "number",
-                        "description": "S.D of gyroscope Z"
+                        "description": "Variance of gyroscope Z"
                     },
                     "cdx_S": {
                         "type": "number",
-                        "description": "S.D of gyroscope dX"
+                        "description": "Variance of gyroscope dX"
                     },
 
                     "cdy_S": {
                         "type": "number",
-                        "description": "S.D of gyroscope dY"
+                        "description": "Variance of gyroscope dY"
                     },
 
                     "cdz_S": {
                         "type": "number",
-                        "description": "S.D of gyroscope dZ"
+                        "description": "Variance of gyroscope dZ"
                     },
                     "hrmRaw_S": {
                         "type": "number",
-                        "description": "S.D of hrm raw"
+                        "description": "Variance of hrm raw"
                     },
 
                     "hrmFilt_S": {
                         "type": "number",
-                        "description": "S.D of hrm filtered"
+                        "description": "Variance of hrm filtered"
                     },
 
                     "hrmBPM_S": {
                         "type": "number",
-                        "description": "S.D of hrm BPM"
+                        "description": "Variance of hrm BPM"
                     },
                     "hrmConfidence_S": {
                         "type": "number",
-                        "description": "S.D of hrm Confidence"
+                        "description": "Variance of hrm Confidence"
                     }
                 },
                 "additionalProperties": false
